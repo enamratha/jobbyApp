@@ -1,0 +1,20 @@
+.employment-type-section {
+  color: #ffffff;
+}
+
+.employment-type-list {
+  list-style-type: none;
+}
+
+.salary-range-section {
+  color: #ffffff;
+}
+
+.salary-range-list {
+  list-style-type: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+.job-details-description-visit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-details-skill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+  width: 25%;
+}
+
+.job-details-skill-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.job-details-company-life {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-details-route-bg {
+  background-color: #000000;
+  padding: 15px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.similar-jobs-container {
+  color: #ffffff;
+}
+
+.similar-jobs-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

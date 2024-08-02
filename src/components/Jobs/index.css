@@ -1,0 +1,46 @@
+.jobs-container {
+  list-style-type: none;
+  padding: 15px;
+  background-color: #000000;
+}
+
+.job-route-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+}
+.md-device-search-bar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-filters-container {
+    width: 30vw;
+  }
+
+  .jobs-container {
+    width: 70vw;
+  }
+  .job-route-design {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .sm-device-search-bar {
+    display: none;
+  }
+  .md-device-search-bar {
+    display: block;
+  }
+}
+
+.job-results-container {
+  min-width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
